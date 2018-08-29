@@ -1,4 +1,4 @@
-package UdemyCaveOfProg;
+package Udemy.CaveOfProgramming;
 
 class Machine{
 
@@ -31,7 +31,7 @@ public class _22Constructors {
     public static void main (String [] args){
         Machine machine1 = new Machine(); //constructor calls the first constructor
 
-      //new UdemyCaveOfProg.Machine(); //another way to make a constructor
+      //new Udemy.CaveOfProgramming.Machine(); //another way to make a constructor
         Machine machine2 = new Machine("bob");
         Machine machine3 = new Machine("sammy", 4);
 

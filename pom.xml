@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+
+    <!--Properties-->
+    <properties>
+        <selenium_version>3.12.0</selenium_version>
+        <jsonpath_version>2.4.0</jsonpath_version>
+        <logslf4j_version>1.7.25</logslf4j_version>
+        <webdrivermgr_version>2.2.4</webdrivermgr_version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <testng_version>6.14.3</testng_version>
+        <cucumberJava_version>1.2.5</cucumberJava_version>
+        <apache_poi_version>3.17</apache_poi_version>
+    </properties>
+
+    <dependencies>
+        <!--Selenium Library-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium_version}</version>
+        </dependency>
+        <!--Jsonpath Library - To read values from Json-->
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>${jsonpath_version}</version>
+        </dependency>
+        <!--Logging Library-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${logslf4j_version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!--Web Driver Manager-->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermgr_version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng_version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumberJava_version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apache_poi_version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <!--Plugin to download diver files at run time-->
+        <plugins>
+            <plugin>
+                <groupId>com.lazerycode.selenium</groupId>
+                <artifactId>driver-binary-downloader-maven-plugin</artifactId>
+                <version>1.0.14</version>
+                <configuration>
+                    <rootStandaloneServerDirectory>target/binaries</rootStandaloneServerDirectory>
+                    <downloadedZipFileDirectory>target/zips</downloadedZipFileDirectory>
+                    <customRepositoryMap>RepositoryMap.xml</customRepositoryMap>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>selenium</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

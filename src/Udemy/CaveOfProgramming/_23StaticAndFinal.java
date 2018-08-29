@@ -1,4 +1,4 @@
-package UdemyCaveOfProg;
+package Udemy.CaveOfProgramming;
 
 class Thing{
     public String name;
@@ -33,7 +33,7 @@ public class _23StaticAndFinal {
 
         Thing.description = "I am a thing";
         Thing.showInfo();
-   //     System.out.println(UdemyCaveOfProg.Thing.description);
+   //     System.out.println(Udemy.CaveOfProgramming.Thing.description);
         System.out.println("before " +Thing.count);
 
         Thing thing1 = new Thing();

@@ -1,4 +1,4 @@
-package UdemyCaveOfProg._28Interfaces;
+package Udemy.CaveOfProgramming._28Interfaces;
 /*
 public class App {
 

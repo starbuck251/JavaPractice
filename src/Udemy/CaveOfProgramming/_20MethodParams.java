@@ -1,4 +1,4 @@
-package UdemyCaveOfProg;
+package Udemy.CaveOfProgramming;
 
 class Robot {
     public void speak(String text) {

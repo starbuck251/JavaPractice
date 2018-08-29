@@ -1,4 +1,4 @@
-package UdemyCaveOfProg._26Inheritance;
+package Udemy.CaveOfProgramming._26Inheritance;
 
 public class _26Car extends _26Machine {
     public void wipeWindShield(){

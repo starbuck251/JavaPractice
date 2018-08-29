@@ -1,4 +1,4 @@
-package UdemyCaveOfProg;
+package Udemy.CaveOfProgramming;
 
 class Frog{
     //private means that the instance variables cannot be accessed outside of the class

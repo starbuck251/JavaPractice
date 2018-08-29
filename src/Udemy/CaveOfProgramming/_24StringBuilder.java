@@ -1,4 +1,4 @@
-package UdemyCaveOfProg;
+package Udemy.CaveOfProgramming;
 
 
 public class _24StringBuilder {
