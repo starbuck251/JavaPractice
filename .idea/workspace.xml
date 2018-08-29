@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af45aac3-71ea-4e75-8057-3934e36d5cd6" name="Default" comment="Merge branch 'master' of https://github.com/starbuck251/JavaPractice&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+    <list default="true" id="af45aac3-71ea-4e75-8057-3934e36d5cd6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -247,12 +243,12 @@
       <option name="project" value="LOCAL" />
       <updated>1535541405341</updated>
     </task>
-    <task id="LOCAL-00002" summary="commiting items">
-      <created>1533728298219</created>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/starbuck251/JavaPractice&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+      <created>1535541875876</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1533728298219</updated>
+      <updated>1535541875876</updated>
     </task>
     <task id="LOCAL-00003" summary="committing items">
       <created>1533728679066</created>
@@ -289,7 +285,7 @@
       <option name="project" value="LOCAL" />
       <updated>1535540573835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -651,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
