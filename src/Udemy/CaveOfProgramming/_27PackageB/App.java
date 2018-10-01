@@ -2,6 +2,7 @@ package Udemy.CaveOfProgramming._27PackageB;
 
 import Udemy.CaveOfProgramming._27Packages._27SubPackage.Plants;
 import Udemy.CaveOfProgramming._27Packages._27SubPackage.Seaweed;
+import Udemy.CaveOfProgramming._27Packages.Fish;
 /* using a star means
 *
 * import Udemy.CaveOfProgramming._27Packages.Fish;
