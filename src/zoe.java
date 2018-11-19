@@ -1,0 +1,2 @@
+public class zoe {
+}
