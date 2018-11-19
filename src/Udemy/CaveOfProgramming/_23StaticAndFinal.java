@@ -2,25 +2,30 @@ package Udemy.CaveOfProgramming;
 
 class Thing{
     public String name;
+
+    //static or class variables
     public static String description;
     public static final int LUCKY_NUMBER = 7;
 
     public static int count = 0;
     public int id;
 
+    //constructor  - counts the number of objects you create and can give your
+    //objects their own id
     public Thing(){
         id = count;
         count++;
     }
 
-    //these can output static and instance variables
+    // this is an instance method - these can output static and instance variables
     public void showName(){
         System.out.println("object id " + id + ", " +description + " " +name);
     }
 
-    //can only output static variables, not instances
+    //can only output static variables in the class, not instances
     public static void showInfo(){
         System.out.println("Hello");
+        System.out.println(description); //will work
       //Won't work  System.out.println(name);
 
     }
@@ -34,7 +39,7 @@ public class _23StaticAndFinal {
         Thing.description = "I am a thing";
         Thing.showInfo();
    //     System.out.println(Udemy.CaveOfProgramming.Thing.description);
-        System.out.println("before " +Thing.count);
+        System.out.println("before any constructors run " +Thing.count);
 
         Thing thing1 = new Thing();
         Thing thing2 = new Thing();
@@ -48,6 +53,6 @@ public class _23StaticAndFinal {
         thing2.showName();
 
         System.out.println(Thing.LUCKY_NUMBER);
-        System.out.println("after " +Thing.count);
+        System.out.println("after constructors are run, there are this many objects" +Thing.count);
     }
 }
