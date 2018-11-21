@@ -1,4 +1,4 @@
-package uCertify.Access_Modifiers.Pond_Duck;
+package uCertify.Access_Modifiers.Pond.Duck;
 
 /**
  * Private methods here are fine as all in one class
