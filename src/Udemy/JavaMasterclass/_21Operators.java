@@ -57,10 +57,35 @@ public class _21Operators {
         if (topScore !=100)
             System.out.println("not 100");
 
-        int secondTop = 60;
+        //Using AND
+        int secondTop = 90;
         if (topScore > secondTop && topScore <100)
-            System.out.println("greater than 2nd top and less than 100");
+            System.out.println("Greater than 2nd top and less than 100");
 
+        //Using OR
+        if ((topScore > 90) || (secondTop <= 90))
+            System.out.println("one of these tests is true");
+
+
+        //Ternary operator
+        /*shorter way to write:
+
+        if (isCar == true)
+            wasCar = true
+        else
+            wasCar =  false
+         */
+
+        boolean isCar = true;
+
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) //if wasCar == true
+            System.out.println("wasCar is true");
+
+        //list of operators online
+        // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+        // java operatorw precedence table
+        // http://cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
 
     }
 }

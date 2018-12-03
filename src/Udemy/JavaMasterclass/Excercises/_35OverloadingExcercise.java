@@ -1,4 +1,4 @@
-package Udemy.JavaMasterclass;
+package Udemy.JavaMasterclass.Excercises;
 
 /**
  * Need to finish this
@@ -16,6 +16,7 @@ public class _35OverloadingExcercise {
 
     public static int calcFeetAndInchesToCentimeters(int feet, int inches){
 
+        //Using AND
         if ((feet >= 0) && (inches >=0 && inches <=12)){
             System.out.println("valid");
             return feet * inches;
@@ -23,6 +24,8 @@ public class _35OverloadingExcercise {
         else{
             return -1;
         }
+
+
 
     }
 
