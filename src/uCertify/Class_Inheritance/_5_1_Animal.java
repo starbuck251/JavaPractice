@@ -8,4 +8,7 @@ public class _5_1_Animal {
     public void setAge(int age) {
         this.age = age;
     }
+    public void cat(){
+        System.out.println("Cat");
+    }
 }
