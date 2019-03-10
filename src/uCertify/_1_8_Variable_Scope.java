@@ -14,7 +14,7 @@ public class _1_8_Variable_Scope {
 
     public void main (String args []) {
 
-        System.out.println("local is not accessible here  " + local);
+     //   System.out.println("local is not accessible here  " + local);
         System.out.println("class variable can be access here  " + classVariable);
         System.out.println("instance variable can be access here " + instanceVariable);
 
@@ -22,10 +22,8 @@ public class _1_8_Variable_Scope {
             System.out.println("i is avail here" + i);
         }
 
-        System.out.println("i is not avail here" + i);
+     //   System.out.println("i is not avail here" + i);
 
     }
-
-
 
 }
