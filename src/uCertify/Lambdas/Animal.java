@@ -3,6 +3,10 @@ package uCertify.Lambdas;
 // this is an anonymous method that can be passed around
 
 public class Animal {
+    //INTERFACE
+    public interface CheckTrait{
+        boolean test (Animal a);
+    }
 
     private String species;
     private boolean canHop;
@@ -26,9 +30,6 @@ public class Animal {
         return species;
     }
 
-    public interface CheckTrait{
-        boolean test (Animal a);
-    }
 }
 
 
