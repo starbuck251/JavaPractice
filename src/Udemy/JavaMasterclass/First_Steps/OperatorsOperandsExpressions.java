@@ -1,6 +1,6 @@
-package Udemy.JavaMasterclass;
+package Udemy.JavaMasterclass.First_Steps;
 
-public class _21Operators {
+public class OperatorsOperandsExpressions {
 
     public static void main (String args[]) {
 
@@ -59,12 +59,15 @@ public class _21Operators {
 
         //Using AND
         int secondTop = 90;
-        if (topScore > secondTop && topScore <100)
+        if ((topScore > secondTop) && (topScore <100))
             System.out.println("Greater than 2nd top and less than 100");
 
         //Using OR
         if ((topScore > 90) || (secondTop <= 90))
             System.out.println("one of these tests is true");
+
+        if (topScore == 50)
+            System.out.println("Must use two == in an if when a comparator");
 
 
         //Ternary operator
